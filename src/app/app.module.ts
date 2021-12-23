@@ -9,7 +9,11 @@ import { AddTravelComponent } from './Components/add-travel/add-travel.component
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CustomerComponent } from './Components/customer/customer.component';
 import { RegisterComponent } from './Components/register/register.component';
+<<<<<<< Updated upstream
 import { HlgrowDirective } from './Directives/hlgrow.directive';
+=======
+import { HlGlowDirective } from './Directives/hl-glow.directive';
+>>>>>>> Stashed changes
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { HlgrowDirective } from './Directives/hlgrow.directive';
     AddTravelComponent,
     CustomerComponent,
     RegisterComponent,
+<<<<<<< Updated upstream
     HlgrowDirective
+=======
+    HlGlowDirective
+>>>>>>> Stashed changes
   ],
   imports: [
     BrowserModule,
